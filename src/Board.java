@@ -214,7 +214,7 @@ public class Board extends JFrame implements Serializable{
     public Integer chooseDialog(int val) {
         JOptionPane optionPane = new JOptionPane();
 
-        int[] pieces = {1,2,3,4,6};
+        int[] pieces = {1,2,3,4};
 
         JButton[] buttons = new JButton[pieces.length];
         int i = 0;
